@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 
-#
-# usage:
-#
-# ./convert-ids.py < zcat *.fna.gz | gzip > reformatted.fna.gz
-#
-# warning! will consume a fuckton of memory
-#
-
 from Bio import SeqIO
 from peewee import *
 
